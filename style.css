@@ -6,26 +6,46 @@ body {
 
 .card {
     background: hsl(0, 0%, 100%);
-    margin: 20px auto;
-    width: 500px;
+    margin: 120px auto;
+    width: 250px;
     border-radius: 10px;
-    padding: 50px;
-    box-shadow: 0 0 1em rgb(0, 0, 0);
+    padding: 10px 5px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.153);
+    align-items: center;
 }
 
 h2 {
     font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 18px;
+    margin: 15px;
 }
 
 h3 {
     font-weight: 400;
     color: hsl(220, 15%, 55%);
+    font-size: 12px;
+    margin: 15px;
 }
 
 .image {
-    margin: 10px;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    width: 240px;  
 }
 
 .text {
     font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.attribution {
+    position: fixed;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
 }
