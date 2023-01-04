@@ -2,15 +2,16 @@
 
 body {
     background: hsl(212, 45%, 89%);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .card {
     background: hsl(0, 0%, 100%);
     margin: 120px auto;
-    width: 250px;
+    width: 35vh;
+    min-height: 40vh;
     border-radius: 10px;
-    padding: 10px 5px;
+    padding: 10px 3px;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.153);
     align-items: center;
 }
@@ -18,24 +19,25 @@ body {
 h2 {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    font-size: 18px;
+    font-size: 1.1rem;
     margin: 15px;
 }
 
 h3 {
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    font-size: 12px;
+    font-size: 0.8rem;
     margin: 15px;
 }
 
 .image {
     text-align: center;
+    box-sizing: border-box;
 }
 
 img {
     border-radius: 10px;
-    width: 240px;  
+    width: 90%;  
 }
 
 .text {
@@ -43,10 +45,20 @@ img {
     text-align: center;
 }
 
-.attribution {
+footer {
     position: fixed;
     left: 0;
     bottom: 5px;
     width: 100%;
     text-align: center;
 }
+
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
