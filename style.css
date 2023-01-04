@@ -2,6 +2,7 @@
 
 body {
     background: hsl(212, 45%, 89%);
+    height: 100vh;
 }
 
 .card {
